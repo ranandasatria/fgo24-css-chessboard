@@ -1,13 +1,45 @@
-# CHESSBOARD HTML
-Ini adalah project untuk membuat tabel dengan HTML tanpa CSS. Papan catur digunakan sebagai wadah untuk eksplorasi pembuatan tabel kali ini. 
+# HTML CHESSBOARD
+This project is aimed at creating a chessboard using pure HTML without additional CSS.
+The main focus is to explore building table structures in HTML through a simple chessboard layout.
 
+## Preview
+![Preview](/image.png)
 
-## Langkah-langkah untuk memulai project
-1. Inisialisasi project Node.js dengan ```npm init -y```
-2. Install live-server untuk menjalankan html di browser dengan ```npm install live-server --save-dev```
-3. Simpan script untuk menjalankan live-server di package.json dengan ```"dev": "live-server"```
-4. Isi file HTML dengan struktur dasar mulai dari ```<!DOCTYPE html> <html> <head> <body> ```dan tag penutupnya.
-5. Gunakan ```<table><thead><tbody><th><tr><td>``` untuk membuat 8 baris dan 8 kolom tabel
-6. Gunakan ```bgcolor=""``` untuk memberi warna putih dan hitam pada tiap bagiannya.
-7. Gunakan ```height=""``` dan ```weight=""``` untuk memberi ukuran tinggi dan lebar kolom
-8. Jalankan ```npm run dev``` untuk melihat langsung hasilnya di browser.
+## Getting Started
+1. Clone this project:
+```
+git clone repo-url
+```
+
+2. Install the depedencies:
+```
+npm install
+```
+
+3. Run the project:
+```
+npm run dev
+```
+
+4. The project will be runnning at:
+``` 
+http://localhost:8080
+```
+
+## Depedencies
+
+This project uses Node.js. Make sure you have Node.js installed on your machine.
+
+- live-server: to simulate an HTTP server in a local environment.
+
+## How to contribute
+
+Please open a Pull Request (PR) to contribute to this project.
+Your PR will be reviewed and merged if necessary.
+
+## License
+
+This project folling MIT License.
+
+## Copyright
+&copy; 2025 Kodacademy
