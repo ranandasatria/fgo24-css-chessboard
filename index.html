@@ -4,102 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chessboard</title>
+    <style>
+        /* * {
+          box-sizing: border-box;
+        } */
+
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 25px);
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+        }
+        .white {
+            background-color: white;
+        }
+        .black {
+            background-color: black;
+        }
+      </style>
 </head>
 <body>
 
-    <div>
-        <table border="1">
-            <tbody>
-                <!-- 1 -->
-                <tr>
-                    <td bgcolor="white"; width="25px"; height="25px"></td>
-                    <td bgcolor="black"; width="25px"; height="25px"></td>
-                    <td bgcolor="white"; width="25px"; height="25px"></td>
-                    <td bgcolor="black"; width="25px"; height="25px"></td>
-                    <td bgcolor="white"; width="25px"; height="25px"></td>
-                    <td bgcolor="black"; width="25px"; height="25px"></td>
-                    <td bgcolor="white"; width="25px"; height="25px"></td>
-                    <td bgcolor="black"; width="25px"; height="25px"></td>
-                </tr>
-                <!-- 2 -->
-                <tr>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                </tr>
-                <!-- 3 -->
-                <tr>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                </tr>
-                <!-- 4 -->
-                <tr>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                </tr>
-                <!-- 5 -->
-                <tr>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                </tr>
-                <!-- 6 -->
-                <tr>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                    <td bgcolor="black"; width="25px"; height="25px"></th>
-                    <td bgcolor="white"; width="25px"; height="25px"></th>
-                </tr>
-                <!-- 7 -->
-                <tr>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-            </tr>
-            <!-- 8 -->
-            <tr>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-                <td bgcolor="black"; width="25px"; height="25px"></th>
-                <td bgcolor="white"; width="25px"; height="25px"></th>
-            </tr>
-            </tbody>
-        </table>
+    <div class="chessboard">
+        <!-- 1 -->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <!-- 2 -->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <!-- 3 -->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <!-- 4 -->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <!-- 5 -->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <!-- 6 -->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <!-- 7 -->
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <!-- 8 -->
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
     </div>
 
    
