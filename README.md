@@ -1,6 +1,7 @@
-# HTML CHESSBOARD
-This project is aimed at creating a chessboard using pure HTML without additional CSS.
-The main focus is to explore building table structures in HTML through a simple chessboard layout.
+# CSS CHESSBOARD
+
+This project is aimed at creating a chessboard using CSS div elements instead of an HTML table. The main focus is to explore building layouts using CSS and div elements to create a simple chessboard design.
+
 
 ## Preview
 ![Preview](/image.png)
